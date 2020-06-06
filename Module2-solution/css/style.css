@@ -1,0 +1,110 @@
+	* {
+		box-sizing: border-box;
+	}
+	body{
+		background: transparent;
+	}
+	h1{
+		margin: 70px;
+		text-align: center;
+		font-family:serif;
+		font-size: 175%;
+	}
+	
+	section{
+		position: relative;
+		padding: 10px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div{
+		position: relative;
+		background-color: grey;
+		border: 6px solid black;
+		width: 100%;
+		
+
+	}
+	.box1{
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: brown;
+	}
+
+	.box2{
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: green;
+
+	}
+	.box3{
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: cyan;
+
+	}
+
+	.story{
+		padding: 10px;
+		border: none;
+		background-color: gray;
+		font-family: Arial;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+
+	}
+	.row {
+		width: 50%;
+	}
+	
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
